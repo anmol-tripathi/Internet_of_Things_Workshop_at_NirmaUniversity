@@ -1,5 +1,5 @@
 # Internet of Things Workshop @ Nirma University 2019
-This repository is for IoT Workshop held at Institute of Technology, Nirma University for MESA's annual techno cultural colloquium, PRAVEG-2019  
+This repository is for IoT Workshop held at Institute of Technology, Nirma University for MESA's annual techno cultural colloquium, PRAVEG-2019 🔥  
 
 ## Introduction
 
@@ -40,7 +40,7 @@ https://play.google.com/store/apps/details?id=at.tripwire.mqtt.client&hl=en_IN
 
 ## For Your Reference
 1. List of sensors available for Arduino module
-  -https://www.thegeekpub.com/wiki/list-of-arduino-sensors-and-modules/
+  - https://www.thegeekpub.com/wiki/list-of-arduino-sensors-and-modules/
 
 2. Cayenne App for Raspberry Pi Monitoring
   - Play store:
