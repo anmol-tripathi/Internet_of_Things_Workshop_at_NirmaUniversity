@@ -1,6 +1,11 @@
 # Internet of Things Workshop @ Nirma University 2019
 This repository is for IoT Workshop held at Institute of Technology, Nirma University for MESA's annual techno cultural colloquium, PRAVEG-2019 🔥  
 
+<p align="center">
+<img src="images/praveg.png" width="150" height="200">
+</p>
+
+
 ## Introduction
 
 ## Arduino IDE Installation
