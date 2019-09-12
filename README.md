@@ -40,13 +40,13 @@ https://play.google.com/store/apps/details?id=at.tripwire.mqtt.client&hl=en_IN
 
 ## For Your Reference
 1. List of sensors available for Arduino module
-https://www.thegeekpub.com/wiki/list-of-arduino-sensors-and-modules/
+  -https://www.thegeekpub.com/wiki/list-of-arduino-sensors-and-modules/
 
 2. Cayenne App for Raspberry Pi Monitoring
-Play store:
+  - Play store:
 https://play.google.com/store/apps/details?id=com.mydevices.cayenne&hl=en_IN
 
-App Store:
+  - App Store:
 https://apps.apple.com/us/app/cayenne-iot-project-builder/id1057997711
 
 
