@@ -1,13 +1,9 @@
 # Internet of Things Workshop @ Nirma University 2019
-Refer this repository for the IoT Workshop at Nirma University organized under MESA's annual techno cultural colloquium, PRAVEG-2019 🔥  
+Refer this repository for the IoT Workshop at Nirma University organized under MESA's annual techno cultural colloquium, PRAVEG-2019.
 
 <p align="center">
 <img src="images/praveg.png" width="150" height="200">
 </p>
-
-
-## Introduction
-
 ## Arduino IDE Installation
 Arduino IDE is an integrated development environment where you can write your programs for all compatible development boards.
 During the workshop we are going to use the <b>NodeMCU 1.0 (ESP-12E Module)</b>.
@@ -51,9 +47,10 @@ void loop() {
 ```
 You can explore more such ready made codes in the well written <b>Built-in Example</b> section of your Arduino IDE present in <b>File Menu</b>.
 
-## Installing Mosquitto for MQTT
-## Installing MQTT Playstore app
-https://play.google.com/store/apps/details?id=at.tripwire.mqtt.client&hl=en_IN
+## Installing MyMQTT app
+In one of the practical you will be required to use MQTT protocol to send and receive messages. You are required to install an Android App for the same purpose.
+Refer the link below.
+> https://play.google.com/store/apps/details?id=at.tripwire.mqtt.client&hl=en_IN
 
 ## Tasks
 - Ultrasonic and buzzer practical (reverse parking sensor)
@@ -71,14 +68,6 @@ https://play.google.com/store/apps/details?id=at.tripwire.mqtt.client&hl=en_IN
 - Web page buttons for triggering events (Wifi on NodeMCU)
 - Send data to ThinkSpeak
 - Start visualization using node-red
-
-## NodeRED
-
-## Thingspeak
-
-## IFTTT
-
-## Data Sheets
 
 ## For Your Reference
 1. List of sensors available for Arduino module
