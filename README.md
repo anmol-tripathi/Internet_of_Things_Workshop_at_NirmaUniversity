@@ -102,7 +102,17 @@ Refer the link below.
 6. <b> 5V Buzzer</b>
 <br>http://www.farnell.com/datasheets/2171929.pdf
 
+## Introduction to NODE-RED
 
+Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
+It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.
+Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range of nodes in the palette. Flows can be then deployed to the runtime in a single-click. JavaScript functions can be created within the editor using a rich text editor. A built-in library allows you to save useful functions, templates or flows for re-use.
+<br><br>
+To get started: https://www.youtube.com/watch?v=vYreeoCoQPI
+
+<p align="center">
+<img src="images/nodered.png" width="400" height="300">
+</p>
 
 ## For Your Reference
 1. List of sensors available for Arduino module
