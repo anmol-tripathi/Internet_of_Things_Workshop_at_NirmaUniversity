@@ -87,6 +87,19 @@ Refer the link below.
 <img src="images/DHT11.png" width="300" height="250">
 </p>
 
+## Datasheets
+
+1. Brief about <b> ESP 8266 NodeMCU </b> 
+<br> https://www.handsontec.com/pdf_learn/esp8266-V10.pdf
+<br>
+2. <b> DHT11 Temperature and Pressure Sensor </b>
+<br>https://www.mouser.com/ds/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf
+<br>
+3. <b> Microphone Sensor Module KY-038</b>
+<br>https://datasheetspdf.com/pdf-file/1402048/Joy-IT/KY-038/1
+
+
+
 ## For Your Reference
 1. List of sensors available for Arduino module
   - https://www.thegeekpub.com/wiki/list-of-arduino-sensors-and-modules/
