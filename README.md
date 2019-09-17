@@ -4,6 +4,7 @@ Refer this repository for the IoT Workshop at Nirma University organized under M
 <p align="center">
 <img src="images/praveg.png" width="150" height="200">
 </p>
+
 ## Arduino IDE Installation
 Arduino IDE is an integrated development environment where you can write your programs for all compatible development boards.
 During the workshop we are going to use the <b>NodeMCU 1.0 (ESP-12E Module)</b>.
@@ -22,7 +23,7 @@ You are required to follow the given steps to get started with programming for t
 
 5. Go again to <b>Tools -> Board</b> and select "<i>NodeMCU 1.0 (ESP-12E Module)</i>".
 
-Once you complete all the steps you are ready to start programming on the <b>NodeMCU</b>.
+Once you complete all the steps, you are ready to start programming on the <b>NodeMCU</b>.
 
 ## Hello Arduino
 Here is your first Arduino IDE code of LED blink on ESP8266 board.
