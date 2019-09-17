@@ -114,6 +114,14 @@ To get started: https://www.youtube.com/watch?v=vYreeoCoQPI
 <img src="images/nodered.png" width="400" height="300">
 </p>
 
+## Thingspeak - Your IoT Analytica
+
+ThingSpeak is an open-source Internet of Things (IoT) application and API to store and retrieve data from things using the HTTP and MQTT protocol over the Internet or via a Local Area Network. ThingSpeak enables the creation of sensor logging applications, location tracking applications, and a social network of things with status updates.ThingSpeak has integrated support from the numerical computing software MATLAB from MathWorks, allowing ThingSpeak users to analyze and visualize uploaded data using Matlab without requiring the purchase of a Matlab license from Mathworks
+
+<p align="center">
+<img src="images/thingspeak.png" width="700" height="350">
+</p>
+
 ## For Your Reference
 1. List of sensors available for Arduino module
   - https://www.thegeekpub.com/wiki/list-of-arduino-sensors-and-modules/
