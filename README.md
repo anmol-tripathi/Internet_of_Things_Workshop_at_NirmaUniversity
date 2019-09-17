@@ -91,12 +91,16 @@ Refer the link below.
 
 1. Brief about <b> ESP 8266 NodeMCU </b> 
 <br> https://www.handsontec.com/pdf_learn/esp8266-V10.pdf
-<br>
 2. <b> DHT11 Temperature and Pressure Sensor </b>
 <br>https://www.mouser.com/ds/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf
-<br>
 3. <b> Microphone Sensor Module KY-038</b>
 <br>https://datasheetspdf.com/pdf-file/1402048/Joy-IT/KY-038/1
+4. <b> Adafruit ESP8266EX</b>
+<br>https://cdn-shop.adafruit.com/product-files/2471/0A-ESP8266__Datasheet__EN_v4.3.pdf
+5. <b> Ultrasonic Sensor HC-SR04</b>
+<br>https://datasheetspdf.com/pdf-file/1291829/Cytron/HC-SR04/1
+6. <b> 5V Buzzer</b>
+<br>http://www.farnell.com/datasheets/2171929.pdf
 
 
 
