@@ -79,8 +79,8 @@ Refer the link below.
 <img src="images/microphone.png" width="300" height="200">
 </p>
   
-- <b> Temperature and Pressure Mailing machine </b> <br>
-  Objective:<br> To measure Pressure and Temprature using DHT11 sensor and ESP8266 NodeMCU, and sending the data to a defined email ID. The data should be visible on mobile phone in real time.
+- <b> Temperature and Humidity Mailing machine </b> <br>
+  Objective:<br> To measure Temprature and Humidity using DHT11 sensor and ESP8266 NodeMCU, and sending the data to a defined email ID. The data should be visible on mobile phone in real time.
    <br>
    
 <p align="center">
