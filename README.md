@@ -54,14 +54,30 @@ Refer the link below.
 > https://play.google.com/store/apps/details?id=at.tripwire.mqtt.client&hl=en_IN
 
 ## Tasks
-- Ultrasonic and buzzer practical (reverse parking sensor)
-  OBJ: Distance→ LED(1,2,3) After 3 LED, Also Buzzer frequency matching. ALSO Distance should be visible on phone/Laptop
-  Skills: Arduino coding, interfacing and controlling multiple sensors at a time.
+- <b> Reverse Car Parking Sensor </b> 
+   <br>Objective:<br>
+   To implement real world reverse car parking sensor using Ultrasonic Sensor, Buzzer, LED and NODEMCU ESP8266. Also it, should be connected to a remote device like Mobile phone through WiFi. The device should function as follows
 
-- Snap and Light automation using microphone
-  OBJ: Snap once ON/OFF. Scream for 2 sec., emergency→ Buzzer + light blinking. ALSO user should get EMERGENCY on phone and also light      state. 
-  Skills: Arduino coding, interfacing and controlling multiple sensors at a time.
- 
+| Distance | LED | Buzzer |
+| :---:         |     :---:      |          :---: |
+| Distant   | All LEDs should remain OFF     | Silent    |
+| Far     | 1 LED should turn ON       | Buzzer should beep at low frequency      |
+| Near     | 2 LEDs should turn ON       | Buzzer should beep at medium frequency      |
+| Close     | All LEDs should turn ON       | Buzzer should beep at high frequency      |
+
+<br>
+    The distance should also be visible on remote device connected to the microcontroller.
+<p align="center">
+<img src="images/ultrasonic.png" width="350" height="200">
+</p>
+
+- <b>Clap on Lights!</b>
+  <br>Objective:<br> 
+  To implement light automation system which turn on the Lights (LED) by clapping once and turns off after the second clap using microphone module and ESP8266 NodeMCU. It should work as an emergency alarm as well, if one claps fast, it should display an emergency message on the mobile phone and LEDs should blink. 
+  <p align="center">
+<img src="images/microphone.png" width="350" height="200">
+</p>
+  
 - Temperature and Pressure Mailing machine
   OBJ: Using DHT, collect data and also mail the data to email
 
