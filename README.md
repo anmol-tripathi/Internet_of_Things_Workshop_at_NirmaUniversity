@@ -1,5 +1,5 @@
 # Internet of Things Workshop @ Nirma University 2019
-This repository is for IoT Workshop held at Institute of Technology, Nirma University for MESA's annual techno cultural colloquium, PRAVEG-2019 🔥  
+Refer this repository for the IoT Workshop at Nirma University organized under MESA's annual techno cultural colloquium, PRAVEG-2019 🔥  
 
 <p align="center">
 <img src="images/praveg.png" width="150" height="200">
@@ -9,12 +9,49 @@ This repository is for IoT Workshop held at Institute of Technology, Nirma Unive
 ## Introduction
 
 ## Arduino IDE Installation
-https://www.arduino.cc/en/main/software
+Arduino IDE is an integrated development environment where you can write your programs for all compatible development boards.
+During the workshop we are going to use the <b>NodeMCU 1.0 (ESP-12E Module)</b>.
+NodeMCU is based on the Esperessif ESP8266-12E WiFi System-On-Chip, loaded with an open-source, Lua-based firmware. it’s perfect for IoT applications, and other situations where wireless connectivity is required.
 
-## Installing Mosquitto for MQTT
+You are required to follow the given steps to get started with programming for this workshop.
+1. Go to the following link to download and install the Arduino package for the correct platform.
+   https://www.arduino.cc/en/main/software
+   
+2. Open the Arduino IDE and click on <b>File -> Preferences</b>.
+
+3. In  <b>Aditional Boards Manager URLs</b> add this line and click on "OK":
+   http://arduino.esp8266.com/stable/package_esp8266com_index.json
+   
+4. Go to <b>Tools -> Board -> Boards Manager</b>, type "ESP8266" and install <i>"esp8266 by ESP8266 Community"</i>.
+
+5. Go again to <b>Tools -> Board</b> and select "<i>NodeMCU 1.0 (ESP-12E Module)</i>".
+
+Once you complete all the steps you are ready to start programming on the <b>NodeMCU</b>.
 
 ## Hello Arduino
+Here is your first Arduino IDE code of LED blink on ESP8266 board.
+```
+int led = 2;  // built-in LED.
+// the setup function runs only once.
+void setup() {
+  Serial.begin(115200); //Set data rate in bits per second (baud) for serial data transmission.
+  pinMode(led, OUTPUT);  //Initialize built-in LED as an output.
+  digitalWrite(led,HIGH); //Setup led as OFF.
+}
 
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(led, LOW);                 // turn the LED on
+  Serial.println("Built-in LED is ON");   //print on the serial monitor
+  delay(1000);                            // wait for a second
+  digitalWrite(led, HIGH);                // turn the LED off
+  Serial.println("Built-in LED is OFF");  //print on the serial monitor
+  delay(1000);                            // wait for a second
+}
+```
+You can explore more such ready made codes in the well written <b>Built-in Example</b> section of your Arduino IDE present in <b>File Menu</b>.
+
+## Installing Mosquitto for MQTT
 ## Installing MQTT Playstore app
 https://play.google.com/store/apps/details?id=at.tripwire.mqtt.client&hl=en_IN
 
