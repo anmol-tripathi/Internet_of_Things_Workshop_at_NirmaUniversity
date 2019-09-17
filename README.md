@@ -68,23 +68,23 @@ Refer the link below.
 <br>
     The distance should also be visible on remote device connected to the microcontroller.
 <p align="center">
-<img src="images/ultrasonic.png" width="350" height="200">
+<img src="images/ultrasonic.png" width="430" height="200">
 </p>
 
 - <b>Clap on Lights!</b>
   <br>Objective:<br> 
   To implement light automation system which turn on the Lights (LED) by clapping once and turns off after the second clap using microphone module and ESP8266 NodeMCU. It should work as an emergency alarm as well, if one claps fast, it should display an emergency message on the mobile phone and LEDs should blink. 
-  <p align="center">
-<img src="images/microphone.png" width="350" height="200">
+  
+<p align="center">
+<img src="images/microphone.png" width="300" height="200">
 </p>
   
-- Temperature and Pressure Mailing machine
-  OBJ: Using DHT, collect data and also mail the data to email
-
-
-- Web page buttons for triggering events (Wifi on NodeMCU)
-- Send data to ThinkSpeak
-- Start visualization using node-red
+- <b> Temperature and Pressure Mailing machine <b><br>
+  Objective:<br> To measure Pressure and Temprature using DHT11 sensor and ESP8266 NodeMCU, and sending the data to a defined email ID. The data should be visible on mobile phone in real time.
+   <br>
+   <p align="center">
+<img src="images/DHT11.png" width="430" height="200">
+</p>
 
 ## For Your Reference
 1. List of sensors available for Arduino module
