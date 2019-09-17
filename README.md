@@ -114,6 +114,42 @@ To get started: https://www.youtube.com/watch?v=vYreeoCoQPI
 <img src="images/nodered.png" width="400" height="300">
 </p>
 
+### Installation (Windows)
+
+Step 1: Download Node js from https://nodejs.org/en/download/ and Install into C drive.
+<br>
+Step 2: Open Command prompt in admin mode. type the following command <br>
+```
+npm install --unsafe-perm node-red
+````
+Step 3: In command prompt, write <br>
+```
+node-red
+```
+Step 4: Open any browser and goto http://127.0.0.1:1880/ and you are ready to go
+
+### Installation (Ubuntu)
+
+Step 1: Open Terminal and type
+```
+sudo apt-get update
+```
+Step 2: Add Node.js PPA
+```
+sudo apt-get install curl
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+```
+Step 3: Installing nodejs and npm, 
+```
+sudo apt-get install nodejs
+sudo apt-get install npm
+```
+Step 4: Finally, install nodered <br>
+```
+npm install --unsafe-perm node-red
+````
+Step 5: Open any browser and goto http://127.0.0.1:1880/ and you are ready to go
+
 ## Thingspeak - Your IoT Analytica
 
 ThingSpeak is an open-source Internet of Things (IoT) application and API to store and retrieve data from things using the HTTP and MQTT protocol over the Internet or via a Local Area Network. ThingSpeak enables the creation of sensor logging applications, location tracking applications, and a social network of things with status updates.ThingSpeak has integrated support from the numerical computing software MATLAB from MathWorks, allowing ThingSpeak users to analyze and visualize uploaded data using Matlab without requiring the purchase of a Matlab license from Mathworks
