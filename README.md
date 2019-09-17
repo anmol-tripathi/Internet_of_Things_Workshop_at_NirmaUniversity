@@ -79,11 +79,12 @@ Refer the link below.
 <img src="images/microphone.png" width="300" height="200">
 </p>
   
-- <b> Temperature and Pressure Mailing machine <b><br>
+- <b> Temperature and Pressure Mailing machine </b> <br>
   Objective:<br> To measure Pressure and Temprature using DHT11 sensor and ESP8266 NodeMCU, and sending the data to a defined email ID. The data should be visible on mobile phone in real time.
    <br>
-   <p align="center">
-<img src="images/DHT11.png" width="430" height="200">
+   
+<p align="center">
+<img src="images/DHT11.png" width="300" height="250">
 </p>
 
 ## For Your Reference
