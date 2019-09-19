@@ -12,7 +12,7 @@ const int mqttPort=1883;  //Mention Port name of MQTT broker
 
 WiFiClient espclient; //Creating WiFi Client
 PubSubClient client(espclient); //Creating MQTT client
-int dhtpin=4;   //D2
+int dhtpin=0;   //D3
 DHT dht(dhtpin,DHT11);
 void setup() 
 {

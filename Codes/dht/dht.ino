@@ -3,7 +3,7 @@
 #include<DHT.h>
 //const char* ssid="Le 2";
 //const char* pass="akul0000";
-int dhtpin=5; //Input pin for Temperature and Humidity
+int dhtpin=0; //Input pin for Temperature and Humidity (D3)
 DHT dht(dhtpin, DHT11); //Create an object of DHT class with two parameter
 void setup() 
 {
