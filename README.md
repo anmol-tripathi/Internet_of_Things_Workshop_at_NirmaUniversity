@@ -146,7 +146,8 @@ sudo apt-get install npm
 ```
 Step 4: Finally, install nodered <br>
 ```
-npm install --unsafe-perm node-red
+npm install -g --unsafe-perm node-red
+
 ````
 Step 5: Open any browser and goto http://127.0.0.1:1880/ and you are ready to go
 
