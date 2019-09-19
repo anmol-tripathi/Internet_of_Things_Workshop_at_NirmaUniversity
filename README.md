@@ -120,7 +120,7 @@ Step 1: Download Node js from https://nodejs.org/en/download/ and Install into C
 <br>
 Step 2: Open Command prompt in admin mode. type the following command <br>
 ```
-npm install --unsafe-perm node-red
+npm install -g --unsafe-perm node-red
 ````
 Step 3: In command prompt, write <br>
 ```
@@ -146,7 +146,7 @@ sudo apt-get install npm
 ```
 Step 4: Finally, install nodered <br>
 ```
-npm install -g --unsafe-perm node-red
+sudo npm install -g --unsafe-perm node-red
 
 ````
 Step 5: Open any browser and goto http://127.0.0.1:1880/ and you are ready to go
